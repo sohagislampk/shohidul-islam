@@ -1,10 +1,12 @@
 import React from 'react';
 import shohidul from '../../assests/banner/shohidul.png'
 import Typewriter from 'typewriter-effect'
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return (
         <div>
-            <div className="hero min-h-screen" style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}>
+            <div className="hero min-h-screen" style={{ backgroundImage: `url("https://i.ibb.co/j3c0ydV/bgbanner.jpg")` }}>
                 <div className="hero-overlay bg-opacity-95"></div>
                 <div className="w-full">
                     <div className="flex items-center">
@@ -30,7 +32,9 @@ const Header = () => {
                             </h1>
                             <p>I'm a MERN Stack Developer based in Rangpur, Bangladesh. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
 
-                            <button className='btn btn-primary mt-4'>Check My Resume</button>
+                            <a href='https://drive.google.com/file/d/1TrUUQzmSRG1sFkrmpJujkvA7uz_Hupob/view?usp=sharing' target={'_blank'}>
+                                <button className='btn btn-primary mt-4 text-white'>Check My Resume</button>
+                            </a>
                         </div>
                     </div>
                 </div>
