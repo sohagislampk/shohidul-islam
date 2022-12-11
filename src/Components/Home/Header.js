@@ -2,6 +2,7 @@ import React from 'react';
 import shohidul from '../../assests/banner/shohidul.png'
 import Typewriter from 'typewriter-effect'
 import { Link } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     return (
@@ -10,7 +11,9 @@ const Header = () => {
                 <div className="hero-overlay bg-opacity-95"></div>
                 <div className="w-full">
                     <div className="flex items-center">
-                        <div className='w-full flex justify-end'><img className='w-80 rounded-full border-8 border-primary bg-primary bg-opacity-20 ' src={shohidul} alt="" /></div>
+                        <div className='flex justify-end w-full'>
+                            <div className='clip-path'><img className='w-80  rounded-full border-8 bg-primary bg-opacity-20' src={shohidul} alt="" /></div>
+                        </div>
                         <div className='w-full text-white text-left px-16'>
                             <h2 className='text-xl font-semibold'>
                                 Hi There!{" "}
