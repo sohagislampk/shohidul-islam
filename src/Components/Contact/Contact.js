@@ -2,9 +2,9 @@ import React from 'react';
 import emailjs from 'emailjs-com'
 import Swal from 'sweetalert2';
 
-const SERVICE_ID = "service_vnvqgxg";
-const TEMPLATE_ID = "template_7vms47h";
-const PUBLIC_KEY = "qagYP8IHvM077rXLM";
+const SERVICE_ID = process.env.SERVICE_ID;
+const TEMPLATE_ID = process.env.TEMPLATE_ID;
+const PUBLIC_KEY = process.env.PUBLIC_KEY;
 
 
 const Contact = () => {
