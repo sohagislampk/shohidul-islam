@@ -8,7 +8,7 @@ const Travelonthego = () => {
     return (
         <div>
             <h1 className='text-3xl font-bold mt-8'>Project : Travel One the Go</h1>
-            <div className='grid grid-cols-3 gap-6 my-8 mx-12'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 my-8 mx-6 md:mx-12'>
                 <PhotoProvider>
                     <PhotoView src={img1}>
                         <img className='h-96 w-full  hover:border border-primary p-2' src={img1} style={{ objectFit: 'cover' }} alt="" />
@@ -28,7 +28,7 @@ const Travelonthego = () => {
             <div className='my-8'>
                 <h1 className='text-3xl font-bold'>Details</h1>
 
-                <div className='text-left mx-auto w-2/3 mt-4'>
+                <div className='text-left md:mx-auto mx-6 md:w-2/3 mt-4'>
                     <h2 className='text-xl font-semibold'>Features and Functionality :</h2>
                     <ul className='list-disc ml-8'>
                         <li>
@@ -57,9 +57,9 @@ const Travelonthego = () => {
                     </ul>
 
                 </div>
-                <div className='my-8'>
+                <div className='my-8 flex flex-col md:flex-row md:items-center md:justify-center'>
                     <a href='https://github.com/sohagislampk/travel-on-the-go-client' target={'_blank'} rel="noreferrer" ><button className='btn btn-sm btn-primary mr-4'>Client Site Link</button></a>
-                    <a href='https://github.com/sohagislampk/travel-on-the-go-server' target={'_blank'} rel="noreferrer" ><button className='btn btn-sm btn-primary mr-4'>Server Site link</button></a>
+                    <a href='https://github.com/sohagislampk/travel-on-the-go-server' target={'_blank'} rel="noreferrer" ><button className='btn btn-sm btn-primary mr-4 my-4'>Server Site link</button></a>
                     <a href='https://travel-on-the-go-a11.web.app/' target={'_blank'} rel="noreferrer" ><button className='btn btn-sm btn-primary mr-4'>Live Link</button></a>
                 </div>
             </div>

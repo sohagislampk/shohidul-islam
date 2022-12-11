@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer items-center p-4 bg-[#2196F3] px-8 text-white">
-            <div className="items-center grid-flow-col">
-                <p>Shohidul Islam</p>
+        <footer className="footer items-center justify-items-center md:justify-items-start p-4 bg-[#2196F3] px-8 text-white">
+            <div className="grid items-center md:grid-flow-col">
+                <p className='text-center mx-auto'>Shohidul Islam</p>
                 <p>Copyright © 2022 - All right reserved</p>
             </div>
             <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">

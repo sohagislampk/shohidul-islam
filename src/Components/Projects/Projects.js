@@ -10,7 +10,7 @@ const Projects = () => {
         <div>
             <h1 className='text-2xl font-bold mt-8'>My projects</h1>
 
-            <div className='grid grid-cols-3 gap-6 my-8'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mx-4 my-8'>
                 <div className='border-4 p-4 mx-4 border-primary shadow-xl shadow-primary '>
                     <img src={tunetools} alt="" />
                     <h1 className='text-xl font-bold mt-4'>Tune tools</h1>

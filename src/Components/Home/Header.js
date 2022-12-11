@@ -10,18 +10,18 @@ const Header = () => {
             <div className="hero min-h-screen" style={{ backgroundImage: `url("https://i.ibb.co/j3c0ydV/bgbanner.jpg")` }}>
                 <div className="hero-overlay bg-opacity-95"></div>
                 <div className="w-full">
-                    <div className="flex items-center">
-                        <div className='flex justify-end w-full'>
-                            <div className='clip-path'><img className='w-80  rounded-full border-8 bg-primary bg-opacity-20' src={shohidul} alt="" /></div>
+                    <div className="md:flex md:items-center">
+                        <div className='flex justify-center md:justify-end w-full mx-auto my-4'>
+                            <div className='clip-path'><img className='w-80 mx-auto  rounded-full border-8 bg-primary bg-opacity-20' src={shohidul} alt="" /></div>
                         </div>
-                        <div className='w-full text-white text-left px-16'>
+                        <div className='w-full text-white text-left px-4 md:px-16'>
                             <h2 className='text-xl font-semibold'>
                                 Hi There!{" "}
                                 <span className="wave" role="img" aria-labelledby="wave">
                                     👋🏻
                                 </span>
                             </h2>
-                            <h1 className='text-4xl flex font-bold my-4'> I'M <strong className='ml-2 text-primary'><Typewriter
+                            <h1 className='text-2xl md:text-4xl flex font-bold my-4'> I'M <strong className='ml-2 text-primary'><Typewriter
                                 options={{
                                     strings: [
                                         "Front-end Developer",

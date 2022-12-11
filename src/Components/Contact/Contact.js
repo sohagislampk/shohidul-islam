@@ -31,7 +31,7 @@ const Contact = () => {
     return (
         <div id='contact-me' >
             <h1 className='text-2xl font-bold mt-10'>Contact Me</h1>
-            <form onSubmit={handleSubmit} className='w-1/2 mx-auto my-8 rounded-xl shadow-2xl p-6'>
+            <form onSubmit={handleSubmit} className='md:w-1/2 mx-auto my-8 rounded-xl shadow-2xl p-6'>
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text">Name</span>
